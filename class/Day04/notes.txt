@@ -1,0 +1,4 @@
+activity01 = slice and split in array
+
+how the nested array should be flattened default value is 1
+infinity== flattened all lebels no matter how deep
