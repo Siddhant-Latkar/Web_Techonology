@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f4f6f9;
+}
+
+.form-box {
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+select, input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#error { color: red; }
+#loading { color: green; }
+
+#slots {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.slot {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    line-height: 80px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.available {
+    background: #28a745;
+    color: white;
+}
+
+.booked {
+    background: #ccc;
+    cursor: not-allowed;
+}

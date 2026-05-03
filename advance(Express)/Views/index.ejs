@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Parking Slot Finder</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+
+<h1>🚗 Smart Parking Slot Finder</h1>
+
+<div class="form-box">
+
+    <label>Location:</label>
+    <select id="location">
+        <option value="">Choose Location</option>
+        <option value="mall">City Mall</option>
+        <option value="station">Railway Station</option>
+        <option value="airport">Airport</option>
+    </select>
+
+    <label>Date:</label>
+    <input type="date" id="date">
+
+    <label>Time:</label>
+    <input type="time" id="time">
+
+    <button onclick="findSlots()">Find Slots</button>
+
+    <p id="error"></p>
+    <p id="loading"></p>
+
+</div>
+
+<h2 id="title"></h2>
+<div id="slots"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
